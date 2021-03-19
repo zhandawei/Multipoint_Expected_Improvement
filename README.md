@@ -13,6 +13,8 @@
 * Feel free to contact me if you find any error in this code.
 
 
+
+### reference
 1. Schonlau, M. (1997). Computer experiments and global optimization, University of Waterloo.
 2. Ginsbourger, D., R. Le Riche and L. Carraro (2010). Kriging Is Well-Suited to Parallelize Optimization. Computational Intelligence in Expensive Optimization Problems. Y. Tenne and C.-K. Goh, Springer Berlin Heidelberg. 2: 131-162.
 3. Chevalier, C. and D. Ginsbourger (2013). Fast Computation of the Multi-Points Expected Improvement with Applications in Batch Selection. Learning and Intelligent Optimization. G. Nicosia and P. Pardalos, Springer Berlin Heidelberg. 7997: 59-69.
