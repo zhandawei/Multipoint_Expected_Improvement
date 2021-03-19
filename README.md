@@ -2,9 +2,9 @@
 
 * This is a MATLAB implementation of the multipoint expected improvement algorithm[1,2,3]. I am interesting in the multipoint expected improvement criterion, but I only find a implementation in R DiceOptim package[4] and could not find a MATLAB implementation. So, I made this implementation.
 
-* I referred to the 'qEI.R' function in the DiceOptim package[4] when doing the coding, which computes the analytical expression of the multipoint expected improvement criterion using the formula in [3].
+* I referred to the *qEI.R* function in the DiceOptim package[4] when doing the coding, which computes the analytical expression of the multipoint expected improvement criterion using the formula in [3].
 
-* Specifically, I used the 'qsimvnv' code of Alan Genz [5] for the numerical computation of multivariate normal distribution values, and the modified Cholesky algorithm[6] for the Cholesky decomposition in this code.
+* Specifically, I used the *qsimvnv* code of Alan Genz [5] for the numerical computation of multivariate normal distribution values, and the modified Cholesky algorithm[6] for the Cholesky decomposition in this code.
 
 * I have verified this code against the Monte Carlo method.
 
