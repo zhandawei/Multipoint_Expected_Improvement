@@ -1,2 +1,15 @@
 # Multipoint_Expected_Improvement
- A MATLAB implementation of the multipoint expected improvement algorithm
+This is a MATLAB implementation of the multipoint expected improvement algorithm[1,2,3]. I am interesting in the multipoint expected improvement criterion, but I only find a implementation in R DiceOptim package[4,5] and could not find a MATALB implementation. So, I made this implementation.
+
+I referred to the qEI.R function in the DiceOptim package[4,5] when doing the coding, which computes the analytical expression of the multipoint expected improvement criterion of [3].
+
+
+
+
+
+
+[1] Schonlau, M. (1997). Computer experiments and global optimization, University of Waterloo.
+[2] Ginsbourger, D., R. Le Riche and L. Carraro (2010). Kriging Is Well-Suited to Parallelize Optimization. Computational Intelligence in Expensive Optimization Problems. Y. Tenne and C.-K. Goh, Springer Berlin Heidelberg. 2: 131-162.
+[3] Chevalier, C. and D. Ginsbourger (2013). Fast Computation of the Multi-Points Expected Improvement with Applications in Batch Selection. Learning and Intelligent Optimization. G. Nicosia and P. Pardalos, Springer Berlin Heidelberg. 7997: 59-69.
+[4] Roustant, O., D. Ginsbourger and Y. Deville (2012). "DiceKriging, DiceOptim: Two R Packages for the Analysis of Computer Experiments by Kriging-Based Metamodeling and Optimization." Journal of Statistical Software 51(1): 1-55.
+[5] https://cran.r-project.org/web/packages/DiceOptim/index.html
