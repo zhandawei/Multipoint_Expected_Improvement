@@ -6,6 +6,8 @@
 
 * Specifically, I used the *qsimvnv* code of Alan Genz [5] for the numerical computation of multivariate normal distribution values, and the modified Cholesky algorithm[6] for the Cholesky decomposition in this code.
 
+* Also, I have made some small changes to the *predictor* funtion of the DACE toolbox[7] to output the covaricance matrix of the inputs.
+
 * I have verified this code against the Monte Carlo method.
 
 * Feel free to contact me if you find any error in this code.
@@ -22,3 +24,4 @@
 5. Alan Genz. Numerical Computation of Multivariate Normal Probabilities, in J. of Computational and Graphical Stat., 1(1992), pp. 141-149, WSU Math, PO Box 643113, Pullman, WA 99164-3113. [Links](http://www.math.wsu.edu/faculty/genz/software/software.html)
 
 6. S. H. Cheng and N. J. Higham. A modified Cholesky algorithm based on a symmetric indefinite factorization. SIAM J. Matrix Anal. Appl., 19(4):1097-1110, 1998. [Github links](https://github.com/higham/modified-cholesky)
+7. S. N. Lophaven, H. B. Nielsen, and J. Sodergaard, DACE - A MATLAB Kriging Toolbox, Technical Report IMM-TR-2002-12, Informatics and Mathematical Modelling, Technical University of Denmark, 2002.
