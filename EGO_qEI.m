@@ -36,7 +36,7 @@ while iteration <= max_iteration
     % update database
     sample_x = [sample_x;infill_x];
     sample_y = [sample_y;infill_y];
-    % update the evaluation number of generation number
+    % update the evaluation number and iteration number
     iteration = iteration + 1;
     evaluation = evaluation + size(infill_x,1);
     [fmin,index] = min(sample_y);
