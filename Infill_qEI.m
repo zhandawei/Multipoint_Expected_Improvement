@@ -19,7 +19,7 @@ pk = zeros(1,q);
 first_term = zeros(1,q);
 second_term = zeros(1,q);
 if q == 1
-    y = (fmin-u).*Gaussian_CDF((fmin-u)./s)+s.*Gaussian_PDF((fmin-u)./s);
+    y = (fmin-u).*normcdf((fmin-u)./s)+s.*normpdf((fmin-u)./s);
 else
     for k = 1:q
         % Sigma_k: covariance matrix of vector Z^{k}
